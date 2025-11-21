@@ -1,0 +1,12 @@
+._container {
+    background-color: white;
+    border-radius: 1rem;
+    text-decoration: none;
+    opacity: 0.5 !important;
+}
+
+._container h3, ._container h2, ._container a, ._container p, ._container span {
+    border-radius: 1rem;
+    background-color: gray;
+    color: gray !important;
+}

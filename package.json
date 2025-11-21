@@ -1,0 +1,38 @@
+{
+    "name": "fragment",
+    "version": "1.0.0",
+    "description": "CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure. More information can be found at the [official site](https://codeigniter.com).",
+    "main": "index.js",
+    "scripts": {
+        "dev": "NODE_ENV=development webpack --progress --watch",
+        "prod": "NODE_ENV=production webpack --progress --watch",
+        "tw": "npx @tailwindcss/cli -i ./public/assets/css/style.css -o ./public/assets/css/build/build.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.10.5",
+        "@babel/core": "^7.11.1",
+        "@babel/preset-env": "^7.11.0",
+        "babel-loader": "^8.1.0",
+        "webpack": "^5.102.1",
+        "webpack-cli": "^6.0.1"
+    },
+    "dependencies": {
+        "@github/include-fragment-element": "^6.4.1",
+        "@tailwindcss/cli": "^4.1.17",
+        "tailwindcss": "^4.1.17"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/edson-09/blog-ci4.git"
+    },
+    "bugs": {
+        "url": "https://github.com/edson-09/blog-ci4/issues"
+    },
+    "homepage": "https://github.com/edson-09/blog-ci4#readme"
+}

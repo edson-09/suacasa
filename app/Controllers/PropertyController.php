@@ -12,6 +12,7 @@ class PropertyController extends BaseController
         $result = $api->getDestacados();
         $properties = $result['data'];
 
+        $cards = '';
         foreach ($properties as $property) {
             $cards .= view('_partials/_cards/_destacado', [
                 'cover_image_url' => $property['cover_image_url'],
@@ -20,7 +21,7 @@ class PropertyController extends BaseController
                 'purpose' =>  $property['purpose'],
                 'address' =>  $property['address'],
                 'price' =>  $property['price'],
-                'bedrooms' => (string) $property['bedrooms'],
+                'bedrooms' => $property['bedrooms'],
             ]);
         }
 

@@ -1,4 +1,5 @@
 <li class="featured-carousel-card shrink-0">
+    <a href="<?php echo base_url('imoveis-destacados/' . $slug) ?>">
     <article class="bg-white rounded-lg shadow-sm overflow-hidden card-hover h-full border border-gray-100">
 
         <div class="w-full aspect-video overflow-hidden bg-gray-100">
@@ -8,7 +9,7 @@
         </div>
 
         <div class="p-5">
-            <p class="text-xl font-bold text-gray-900 mb-2"><?php echo $price ?></p>
+            <p class="text-xl font-bold text-gray-900 mb-2"><?php echo $price ?> MZN</p>
             <p class="text-sm text-gray-700 truncate mb-1"><?php echo $address ?></p>
 
             <div class="flex justify-between items-center mt-3">
@@ -20,4 +21,5 @@
         </div>
 
     </article>
+    </a>
 </li>

@@ -9,3 +9,5 @@ use App\Controllers\PropertyController;
  */
 $routes->get('/', [Home::class, 'index']);
 $routes->get('destacados', [PropertyController::class, 'getDestacados']);
+$routes->get('imoveis-destacados', [PropertyController::class, 'getHighlightProperty']);
+$routes->get('imoveis-destacados/(:segment)', [PropertyController::class, 'getPropertyBySlug/$1']);

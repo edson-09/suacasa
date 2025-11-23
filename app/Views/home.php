@@ -107,7 +107,7 @@
                 <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900">
                     Anúncios destacados
                 </h2>
-                <a href="#" class="text-gray-700 hover:text-gray-900 font-medium underline underline-offset-2">
+                <a href="<?= base_url('imoveis-destacados') ?>" class="text-gray-700 hover:text-gray-900 font-medium underline underline-offset-2">
                     Mostrar tudo
                 </a>
             </div>

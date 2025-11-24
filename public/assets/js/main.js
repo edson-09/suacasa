@@ -1,5 +1,4 @@
 // --------- INICIO DO SCRIPT DO HEADER ----------
-
 // Observar quando o conteúdo do fragment é carregado
 const fragment = document.querySelector("include-fragment");
 const divCaroussel = document.getElementById("featured-wrapper");

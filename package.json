@@ -4,7 +4,7 @@
     "description": "CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure. More information can be found at the [official site](https://codeigniter.com).",
     "main": "index.js",
     "scripts": {
-        "dev": "NODE_ENV=development webpack --progress --watch",
+        "ife": "NODE_ENV=development webpack --progress --watch",
         "prod": "NODE_ENV=production webpack --progress --watch",
         "tw": "npx @tailwindcss/cli -i ./public/assets/css/style.css -o ./public/assets/css/build/build.css --watch"
     },

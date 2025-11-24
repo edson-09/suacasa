@@ -27,6 +27,7 @@ class PropertyController extends BaseController
 
         return view('_partials/_imoveis_destacados', ['cards' => $cards]);
     }
+
     public function getHighlightProperty()
     {
         $api = new PropertyApiService();
@@ -40,6 +41,36 @@ class PropertyController extends BaseController
             $slug = preg_replace('/[^\w\-]+/', '', $slug);
             $slug = strtolower($slug);
             $cards .= view('_partials/_cards/_imoveis_highlights_card', [
+                'id'                => $property['id'],
+                'area'              => $property['area'],
+                'slug'              => $slug,
+                'title'             =>  $property['title'],
+                'price'             =>  $property['price'],
+                'gallery'           => $property['gallery'],
+                'purpose'           =>  $property['purpose'],
+                'address'           =>  $property['address'],
+                'bedrooms'          => $property['bedrooms'],
+                'description'       => $property['description'],
+                'cover_image_url'   => $property['cover_image_url'],
+            ]);
+        }
+
+        return view('_partials/_imoveis_highlights', ['cards' => $cards, 'total' => $result['total'] ?? 0, 'properties' => $properties]);
+    }
+
+    public function getProperties()
+    {
+        $api = new PropertyApiService();
+        $result = $api->getProperties($this->request);
+        $properties = $result['data'];
+
+        $cards = '';
+        foreach ($properties as $property) {
+            $slug = $property['slug'];
+            $slug = iconv('UTF-8', 'ASCII//TRANSLIT', $slug);
+            $slug = preg_replace('/[^\w\-]+/', '', $slug);
+            $slug = strtolower($slug);
+            $cards .= view('_partials/_cards/_property_card', [
                 'id' => $property['id'],
                 'area' => $property['area'],
                 'slug' => $slug,
@@ -54,12 +85,11 @@ class PropertyController extends BaseController
             ]);
         }
 
-        return view('_partials/_imoveis_highlights', ['cards' => $cards, 'total' => $result['total'] ?? 0, 'properties' => $properties]);
+        return view('_partials/_resultados', ['cards' => $cards, 'total' => $result['total'] ?? 0, 'properties' => $properties]);
     }
 
     public function getPropertyBySlug($slug)
     {
-
         $api = new PropertyApiService();
         $property = $api->getPropertyBySlug($slug);
 
@@ -71,17 +101,17 @@ class PropertyController extends BaseController
         $slug = strtolower($slug);
 
         return view('_partials/_property', [
-            'cover_image_url' => $property['cover_image_url'],
-            'slug' => $slug,
-            'title' =>  $property['title'],
-            'purpose' =>  $property['purpose'],
-            'address' =>  $property['address'],
-            'price' =>  $property['price'],
-            'bedrooms' => $property['bedrooms'],
-            'bathrooms' => $property['bathrooms'],
-            'area' => $property['area'],
-            'description' => $property['description'],
-            'images' => $images,
+            'cover_image_url'   => $property['cover_image_url'],
+            'slug'              => $slug,
+            'title'             =>  $property['title'],
+            'purpose'           =>  $property['purpose'],
+            'address'           =>  $property['address'],
+            'price'             =>  $property['price'],
+            'bedrooms'          => $property['bedrooms'],
+            'bathrooms'         => $property['bathrooms'],
+            'area'              => $property['area'],
+            'description'       => $property['description'],
+            'images'            => $images,
             // 'user' => $property['user'],
         ]);
     }

@@ -277,3 +277,39 @@ in APPPATH/Views/_partials/_property/_images.php on line 18.
 10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
 11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
 12 SYSTEMPATH/rewrite.php(44): require_once('/home/edson/projects/suacasa/public/index.php')
+CRITICAL - 2025-11-23 14:02:51 --> ErrorException: Undefined property: App\Services\PropertyApiService::$request
+[Method: GET, Route: resultados]
+in APPPATH/Services/PropertyApiService.php on line 42.
+ 1 APPPATH/Services/PropertyApiService.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PropertyController.php(62): App\Services\PropertyApiService->getProperties()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PropertyController->getProperties()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/edson/projects/suacasa/public/index.php')
+ERROR - 2025-11-23 14:57:47 --> Erro ao consumir API: 56 : OpenSSL SSL_read: Connection reset by peer, errno 104
+CRITICAL - 2025-11-23 14:57:47 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resultados]
+in APPPATH/Controllers/PropertyController.php on line 63.
+ 1 APPPATH/Controllers/PropertyController.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PropertyController->getProperties()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/edson/projects/suacasa/public/index.php')
+ERROR - 2025-11-23 14:59:35 --> Erro ao consumir API: 56 : OpenSSL SSL_read: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+CRITICAL - 2025-11-23 14:59:35 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: imoveis-destacados/apartamento-luxuoso-em-cmc]
+in APPPATH/Controllers/PropertyController.php on line 95.
+ 1 APPPATH/Controllers/PropertyController.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PropertyController->getPropertyBySlug()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/edson/projects/suacasa/public/index.php')

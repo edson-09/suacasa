@@ -10,11 +10,10 @@
     style="background-image: url('<?php echo base_url('assets/img/imovirtual2HomepageBackground202500813.webp'); ?>')">
     <div class="absolute inset-0 bg-black/50"></div>
 
-    <div class="relative z-10 max-w-6xl mx-auto text-center px-4 md:px-6">
-        <h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-white leading-tight mb-6">
+    <div class="relative z-10 max-w-7xl mx-auto text-center px-4 md:px-6">
+        <h1 class="text-2xl md:text-4xl leading-normal font-semibold text-white mb-6">
             Procuras casas? Não decidas sem ver tudo.<br class="hidden md:block" />
-            Encontra mais no
-            <span class="text-primary font-bold">Mechanicalplace</span>
+            Encontra mais em <span class="text-primary font-bold text-blue-900 bg-white px-2 rounded">Sua Casa</span>
         </h1>
 
         <!-- Tabs -->
@@ -24,15 +23,21 @@
         </div>
 
         <!-- Form -->
-        <form class="bg-white rounded-lg shadow-lg p-4 md:p-8 max-w-5xl mx-auto text-left space-y-6">
+        <form class="bg-white rounded shadow-lg p-4 md:p-8 mx-auto text-left space-y-6" action="<?= base_url('resultados') ?>">
             <!-- Linha principal -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div class="relative">
-                    <select
+                    <select name="property_type_id"
                         class="w-full border border-gray-300 rounded-md px-3 py-2 appearance-none pr-8 text-gray-700">
-                        <option>Apartamentos</option>
-                        <option>Moradias</option>
-                        <option>Terrenos</option>
+                        <option value="10">Apartamentos</option>
+                        <option value="11">Moradias</option>
+                        <option value="12">Terrenos</option>
+                        <option value="13">Comercial</option>
+                        <option value="14">Quarto</option>
+                        <option value="15">Garagem</option>
+                        <option value="16">Armazém</option>
+                        <option value="17">Escritório</option>
+                        <option value="18">Outro</option>
                     </select>
                     <svg class="w-4 h-4 absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 pointer-events-none"
                         viewBox="0 0 24 24">
@@ -86,12 +91,8 @@
             <!-- Botão -->
             <div class="flex justify-end">
                 <button type="submit"
-                    class="flex items-center gap-2 bg-primary text-white font-semibold px-6 py-2 rounded-md hover:bg-[#11244A] transition">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M10.5 17A6.51 6.51 0 0 1 4 10.5C4 6.916 6.916 4 10.5 4S17 6.916 17 10.5 14.084 17 10.5 17m6.669-1.245A8.45 8.45 0 0 0 19 10.5C19 5.813 15.187 2 10.5 2S2 5.813 2 10.5 5.813 19 10.5 19a8.45 8.45 0 0 0 5.254-1.831L20.586 22H22v-1.414z" />
-                    </svg>
-                    Resultados 67351
+                    class="flex items-center text-white cursor-pointer font-semibold px-6 py-2 rounded-md bg-blue-900 hover:bg-blue-950 transition">
+                    <i class="bi bi-search"></i> <span class="pl-3">Resultados</span>
                 </button>
             </div>
         </form>

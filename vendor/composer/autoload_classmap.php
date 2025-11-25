@@ -6,12 +6,21 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controllers\\BannerHome' => $baseDir . '/app/Controllers/BannerHome.php',
     'App\\Controllers\\BaseController' => $baseDir . '/app/Controllers/BaseController.php',
+    'App\\Controllers\\Category' => $baseDir . '/app/Controllers/Category.php',
     'App\\Controllers\\Home' => $baseDir . '/app/Controllers/Home.php',
+    'App\\Controllers\\PropertyController' => $baseDir . '/app/Controllers/PropertyController.php',
+    'App\\Controllers\\Recent' => $baseDir . '/app/Controllers/Recent.php',
     'App\\Controllers\\Search' => $baseDir . '/app/Controllers/Search.php',
+    'App\\Controllers\\Trending' => $baseDir . '/app/Controllers/Trending.php',
     'App\\Database\\Seeds\\Category' => $baseDir . '/app/Database/Seeds/Category.php',
     'App\\Database\\Seeds\\Post' => $baseDir . '/app/Database/Seeds/Post.php',
+    'App\\Database\\Seeds\\SeederClass' => $baseDir . '/app/Database/Seeds/SeederClass.php',
     'App\\Database\\Seeds\\User' => $baseDir . '/app/Database/Seeds/User.php',
+    'App\\Libraries\\BannerHome' => $baseDir . '/app/Libraries/BannerHome.php',
+    'App\\Models\\Post' => $baseDir . '/app/Models/Post.php',
+    'App\\Services\\PropertyApiService' => $baseDir . '/app/Services/PropertyApiService.php',
     'Bluemmb\\Faker\\PicsumPhotosProvider' => $vendorDir . '/bluemmb/faker-picsum-photos-provider/PicsumPhotosProvider.php',
     'Bluemmb\\Faker\\Tests\\ImageUrlTest' => $vendorDir . '/bluemmb/faker-picsum-photos-provider/Tests/ImageUrlTest.php',
     'Bluemmb\\Faker\\Tests\\SpecificAsIdTest' => $vendorDir . '/bluemmb/faker-picsum-photos-provider/Tests/SpecificAsIdTest.php',

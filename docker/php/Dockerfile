@@ -1,5 +1,10 @@
 FROM php:8.2-apache
 
+# Instala dependências necessárias
+RUN apt-get update && \
+    apt-get install -y libicu-dev && \
+    docker-php-ext-install intl
+
 # Extensões necessárias para CI4
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 

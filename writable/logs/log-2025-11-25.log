@@ -1,0 +1,10 @@
+CRITICAL - 2025-11-25 17:53:31 --> ErrorException: Undefined array key "gallery"
+[Method: GET, Route: imoveis-destacados/galeria.html]
+in APPPATH/Controllers/PropertyController.php on line 96.
+ 1 APPPATH/Controllers/PropertyController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gallery"', '/var/www/html/app/Controllers/PropertyController.php', 96)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PropertyController->getPropertyBySlug('galeria.html', 'galeria.html')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

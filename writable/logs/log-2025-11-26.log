@@ -1,0 +1,14 @@
+CRITICAL - 2025-11-26 10:46:18 --> ErrorException: Undefined array key 0
+[Method: GET, Route: imoveis-destacados/apartamento-luxuoso-na-costa-do-sol]
+in APPPATH/Views/_partials/_property/_images.php on line 5.
+ 1 APPPATH/Views/_partials/_property/_images.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/var/www/html/app/Views/_partials/_property/_images.php', 5)
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Views/_partials/_property/_images.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('_partials/_property/_images', [], true)
+ 5 APPPATH/Controllers/PropertyController.php(96): view('_partials/_property/_images', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PropertyController->getPropertyBySlug('apartamento-luxuoso-na-costa-do-sol', 'apartamento-luxuoso-na-costa-do-sol')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

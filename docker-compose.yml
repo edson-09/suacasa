@@ -1,35 +1,33 @@
-version: "3.9"
-
 services:
   php:
     build: ./docker/php
     container_name: ci4-php
+    working_dir: /var/www/html
     volumes:
-        - .:/var/www/html
+      - .:/var/www/html
+      - php_vendor:/var/www/html/vendor
     ports:
-        - "8080:80"
+      - "8080:80"
     networks:
-        - ci4net
+      - ci4net
 
   node:
     build:
-        context: .
-        dockerfile: docker/node/Dockerfile
+      context: .
+      dockerfile: docker/node/Dockerfile
     container_name: ci4-node
+    working_dir: /app
     volumes:
-        - .:/app
-    command: sh -c "npm run ife & npm run tw"
+      - .:/app
+      - node_modules:/app/node_modules
+    # aqui é a magia: webpack + tailwind + manter container vivo
+    command: sh -c "npm run ife & npm run tw & tail -f /dev/null"
     networks:
-        - ci4net
-
-  composer:
-    image: composer:2
-    container_name: ci4-composer
-    working_dir: /var/www/html
-    volumes:
-        - .:/var/www/html
-    networks:
-        - ci4net
+      - ci4net
 
 networks:
-    ci4net:
+  ci4net:
+
+volumes:
+  php_vendor:
+  node_modules:

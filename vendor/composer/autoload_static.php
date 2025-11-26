@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
+class ComposerStaticInitc352deb382173011ded96cb3bbb9a6b0
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -13,94 +13,94 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
     );
 
     public static $prefixLengthsPsr4 = array (
-        'T' =>
+        'T' => 
         array (
             'Tests\\Support\\' => 14,
         ),
-        'P' =>
+        'P' => 
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
             'PhpParser\\' => 10,
         ),
-        'L' =>
+        'L' => 
         array (
             'Laminas\\Escaper\\' => 16,
         ),
-        'F' =>
+        'F' => 
         array (
             'Faker\\' => 6,
         ),
-        'D' =>
+        'D' => 
         array (
             'DeepCopy\\' => 9,
         ),
-        'C' =>
+        'C' => 
         array (
             'Config\\' => 7,
             'CodeIgniter\\' => 12,
         ),
-        'B' =>
+        'B' => 
         array (
             'Bluemmb\\Faker\\' => 14,
         ),
-        'A' =>
+        'A' => 
         array (
             'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Tests\\Support\\' =>
+        'Tests\\Support\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests/_support',
         ),
-        'Psr\\Log\\' =>
+        'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/src',
         ),
-        'Psr\\Container\\' =>
+        'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'PhpParser\\' =>
+        'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'Laminas\\Escaper\\' =>
+        'Laminas\\Escaper\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-escaper/src',
         ),
-        'Faker\\' =>
+        'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
         ),
-        'DeepCopy\\' =>
+        'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
-        'Config\\' =>
+        'Config\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app/Config',
         ),
-        'CodeIgniter\\' =>
+        'CodeIgniter\\' => 
         array (
             0 => __DIR__ . '/..' . '/codeigniter4/framework/system',
         ),
-        'Bluemmb\\Faker\\' =>
+        'Bluemmb\\Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/bluemmb/faker-picsum-photos-provider',
         ),
-        'App\\' =>
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
     public static $prefixesPsr0 = array (
-        'o' =>
+        'o' => 
         array (
-            'org\\bovigo\\vfs\\' =>
+            'org\\bovigo\\vfs\\' => 
             array (
                 0 => __DIR__ . '/..' . '/mikey179/vfsstream/src/main/php',
             ),
@@ -2588,10 +2588,10 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit657ac079313fab046eb8c29fe1d6992b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit657ac079313fab046eb8c29fe1d6992b::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit657ac079313fab046eb8c29fe1d6992b::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit657ac079313fab046eb8c29fe1d6992b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc352deb382173011ded96cb3bbb9a6b0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc352deb382173011ded96cb3bbb9a6b0::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitc352deb382173011ded96cb3bbb9a6b0::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitc352deb382173011ded96cb3bbb9a6b0::$classMap;
 
         }, null, ClassLoader::class);
     }

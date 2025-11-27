@@ -1,0 +1,268 @@
+CRITICAL - 2025-11-27 07:11:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "apartamento-do-chefe-manhiça"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhi%C3%A7a]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('imoveis-destacados/apartamento-do-chefe-manhiça')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('imoveis-destacados/apartamento-do-chefe-manhiça')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 07:12:53 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 07:12:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 102.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 102)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 07:14:33 --> Erro ao consumir API: 56 : OpenSSL SSL_read: OpenSSL/3.5.4: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+CRITICAL - 2025-11-27 07:14:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 102.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 102)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 07:15:44 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 07:15:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 102.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 102)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 07:16:13 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 07:16:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 102.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 102)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 07:16:56 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 07:16:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 103.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 103)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:17:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site\_partials\_placeholders\_imoveis_destacados.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site\\_partials\\_placeholders\\_imoveis_destacados.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('Site\\_partials\\_placeholders\\_imoveis_destacados', null, true)
+ 3 APPPATH/Modules/Site/Views/pages/home.php(134): CodeIgniter\View\View->include('Site\\_partials\\_placeholders\\_imoveis_destacados')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/pages/home.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 7 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site\\Views\\pages\\home', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:17:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site\_partials\_placeholders\_imoveis_destacados.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site\\_partials\\_placeholders\\_imoveis_destacados.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('Site\\_partials\\_placeholders\\_imoveis_destacados', null, true)
+ 3 APPPATH/Modules/Site/Views/pages/home.php(134): CodeIgniter\View\View->include('Site\\_partials\\_placeholders\\_imoveis_destacados')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/pages/home.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 7 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site\\Views\\pages\\home', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:18:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site\Views\_partials\_placeholders\_imoveis_destacados.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site\\Views\\_partials\\_placeholders\\_imoveis_destacados.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('Site\\Views\\_partials\\_placeholders\\_imoveis_destacados', null, true)
+ 3 APPPATH/Modules/Site/Views/pages/home.php(134): CodeIgniter\View\View->include('Site\\Views\\_partials\\_placeholders\\_imoveis_destacados')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/pages/home.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 7 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site\\Views\\pages\\home', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:19:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/header.php"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/header.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('partials/header', null, true)
+ 3 APPPATH/Views/master.php(34): CodeIgniter\View\View->include('partials/header')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Views/master.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('master', [], true)
+ 7 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('_partials/_property', [], true)
+ 8 APPPATH/Modules/Site/Controllers/PropertyController.php(110): view('_partials/_property', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 07:20:00 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 07:20:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 103.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 103)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:20:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/header.php"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/header.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('partials/header', null, true)
+ 3 APPPATH/Views/master.php(34): CodeIgniter\View\View->include('partials/header')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Views/master.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('master', [], true)
+ 7 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\_partials\\_property', [], true)
+ 8 APPPATH/Modules/Site/Controllers/PropertyController.php(110): view('Site\\Views\\_partials\\_property', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:21:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/header.php"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/header.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('partials/header', null, true)
+ 3 APPPATH/Views/master.php(34): CodeIgniter\View\View->include('partials/header')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Views/master.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('master', [], true)
+ 7 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\_partials\\_property', [], true)
+ 8 APPPATH/Modules/Site/Controllers/PropertyController.php(110): view('Site\\Views\\_partials\\_property', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:23:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master.php"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('master', [], true)
+ 3 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\_partials\\_property', [], true)
+ 4 APPPATH/Modules/Site/Controllers/PropertyController.php(110): view('Site\\Views\\_partials\\_property', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:25:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master.php"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('master', [], true)
+ 3 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\_partials\\_property', [], true)
+ 4 APPPATH/Modules/Site/Controllers/PropertyController.php(110): view('Site\\Views\\_partials\\_property', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:25:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master.php"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('master', [], true)
+ 3 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\_partials\\_property', [], true)
+ 4 APPPATH/Modules/Site/Controllers/PropertyController.php(110): view('Site\\Views\\_partials\\_property', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:25:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master.php"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('master', [], true)
+ 3 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\_partials\\_property', [], true)
+ 4 APPPATH/Modules/Site/Controllers/PropertyController.php(110): view('Site\\Views\\_partials\\_property', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 07:43:57 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 07:43:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 103.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 103)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 07:46:01 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in APPPATH/Modules/Site/Views/_partials/_property/_images.php on line 5.
+ 1 APPPATH/Modules/Site/Views/_partials/_property/_images.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', '/var/www/html/app/Modules/Site/Views/_partials/_property/_images.php', 5)
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/_partials/_property/_images.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\_partials\\_property\\_images', [], true)
+ 5 APPPATH/Modules/Site/Controllers/PropertyController.php(103): view('Site\\_partials\\_property\\_images', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 07:46:36 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 07:46:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhica]
+in APPPATH/Modules/Site/Views/_partials/_property/_images.php on line 5.
+ 1 APPPATH/Modules/Site/Views/_partials/_property/_images.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Views/_partials/_property/_images.php', 5)
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/_partials/_property/_images.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\_partials\\_property\\_images', [], true)
+ 5 APPPATH/Modules/Site/Controllers/PropertyController.php(103): view('Site\\_partials\\_property\\_images', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('apartamento-do-chefe-manhica', 'apartamento-do-chefe-manhica')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 07:47:48 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz

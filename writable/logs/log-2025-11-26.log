@@ -12,3 +12,342 @@ in APPPATH/Views/_partials/_property/_images.php on line 5.
  9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:17:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/views/pages/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/views/pages/home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site/views/pages/home', [], true)
+ 3 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site/views/pages/home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:18:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/views/pages/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/views/pages/home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site/views/pages/home', [], true)
+ 3 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site/views/pages/home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:18:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/views/pages/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/views/pages/home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site/views/pages/home', [], true)
+ 3 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site/views/pages/home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:18:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/Views/pages/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/Views/pages/home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site/Views/pages/home', [], true)
+ 3 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site/Views/pages/home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:20:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules/Site/Views/pages/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Site/Views/pages/home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Modules/Site/Views/pages/home', [], true)
+ 3 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Modules/Site/Views/pages/home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:21:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/Views/layouts/master.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/Views/layouts/master.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('Site/Views/layouts/master', [], true)
+ 3 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Modules\\Site\\Views\\pages\\home', [], true)
+ 4 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Modules\\Site\\Views\\pages\\home', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:22:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules/Site/Views/layouts/master.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Site/Views/layouts/master.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('Modules/Site/Views/layouts/master', [], true)
+ 3 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Modules\\Site\\Views\\pages\\home', [], true)
+ 4 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Modules\\Site\\Views\\pages\\home', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:23:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/Views/pages/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/Views/pages/home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site/Views/pages/home', [], true)
+ 3 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site/Views/pages/home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:24:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/Views/pages/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/Views/pages/home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site/Views/pages/home', [], true)
+ 3 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site/Views/pages/home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:24:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/pages/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/pages/home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site/pages/home', [], true)
+ 3 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site/pages/home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:25:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules/Site/Views/layouts/master.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Site/Views/layouts/master.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('Modules/Site/Views/layouts/master', [], true)
+ 3 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 4 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site\\Views\\pages\\home', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:25:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/Views/layouts/master.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/Views/layouts/master.php')
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('Site/Views/layouts/master', [], true)
+ 3 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 4 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site\\Views\\pages\\home', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:28:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/Views/pages/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/Views/pages/home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site/Views/pages/home', [], true)
+ 3 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site/Views/pages/home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:47:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "_partials/_placeholders/_imoveis_destacados.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('_partials/_placeholders/_imoveis_destacados.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('_partials/_placeholders/_imoveis_destacados', null, true)
+ 3 APPPATH/Modules/Site/Views/pages/home.php(134): CodeIgniter\View\View->include('_partials/_placeholders/_imoveis_destacados')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/pages/home.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 7 APPPATH/Modules/Site/Controllers/HomeController.php(12): view('Site\\Views\\pages\\home', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:47:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/Views/_partials/_placeholders/_imoveis_destacados.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/Views/_partials/_placeholders/_imoveis_destacados.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('Site/Views/_partials/_placeholders/_imoveis_destacados', null, true)
+ 3 APPPATH/Modules/Site/Views/pages/home.php(134): CodeIgniter\View\View->include('Site/Views/_partials/_placeholders/_imoveis_destacados')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/pages/home.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 7 APPPATH/Modules/Site/Controllers/HomeController.php(12): view('Site\\Views\\pages\\home', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:49:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "../_partials/_placeholders/_imoveis_destacados.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../_partials/_placeholders/_imoveis_destacados.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('../_partials/_placeholders/_imoveis_destacados', null, true)
+ 3 APPPATH/Modules/Site/Views/pages/home.php(134): CodeIgniter\View\View->include('../_partials/_placeholders/_imoveis_destacados')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/pages/home.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 7 APPPATH/Modules/Site/Controllers/HomeController.php(12): view('Site\\Views\\pages\\home', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 14:53:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Site/_partials/_placeholders/_imoveis_destacados.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Site/_partials/_placeholders/_imoveis_destacados.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('Site/_partials/_placeholders/_imoveis_destacados', null, true)
+ 3 APPPATH/Modules/Site/Views/pages/home.php(134): CodeIgniter\View\View->include('Site/_partials/_placeholders/_imoveis_destacados')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/pages/home.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 7 APPPATH/Modules/Site/Controllers/HomeController.php(12): view('Site\\Views\\pages\\home', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 15:14:03 --> ErrorException: Undefined variable $cards
+[Method: GET, Route: destacados]
+in APPPATH/Views/_partials/_imoveis_destacados.php on line 4.
+ 1 APPPATH/Views/_partials/_imoveis_destacados.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cards', '/var/www/html/app/Views/_partials/_imoveis_destacados.php', 4)
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Views/_partials/_imoveis_destacados.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('_partials/_imoveis_destacados', [], true)
+ 5 APPPATH/Modules/Site/Controllers/PropertyController.php(30): view('_partials/_imoveis_destacados', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 15:20:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "apartamento-do-chefe-manhiça"
+[Method: GET, Route: imoveis-destacados/apartamento-do-chefe-manhi%C3%A7a]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('imoveis-destacados/apartamento-do-chefe-manhiça')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('imoveis-destacados/apartamento-do-chefe-manhiça')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 15:22:02 --> ErrorException: Undefined array key "gallery"
+[Method: GET, Route: imoveis-destacados/galeria.html]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 98.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gallery"', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 98)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getPropertyBySlug('galeria.html', 'galeria.html')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 15:41:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/header.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('partials/header', null, true)
+ 3 APPPATH/Modules/Site/Views/layouts/master.php(34): CodeIgniter\View\View->include('partials/header')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/layouts/master.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('Site\\Views\\layouts\\master', [], true)
+ 7 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 8 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site\\Views\\pages\\home', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 15:42:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/footer.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/footer.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('partials/footer', null, true)
+ 3 APPPATH/Modules/Site/Views/layouts/master.php(41): CodeIgniter\View\View->include('partials/footer')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Modules/Site/Views/layouts/master.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('Site\\Views\\layouts\\master', [], true)
+ 7 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\home', [], true)
+ 8 APPPATH/Modules/Site/Controllers/HomeController.php(11): view('Site\\Views\\pages\\home', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\HomeController->index()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\HomeController))
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 15:46:48 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+[Method: GET, Route: new-property/category]
+in APPPATH/Modules/Site/Views/pages/new-property.php on line 1.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Site\\Views\\pages\\new-property', [], true)
+ 4 APPPATH/Modules/Site/Controllers/PropertyController.php(122): view('Site\\Views\\pages\\new-property')
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getNewProperty()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 16:11:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/header.php"
+[Method: GET, Route: resultados]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/header.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('partials/header', null, true)
+ 3 APPPATH/Views/master.php(34): CodeIgniter\View\View->include('partials/header')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Views/master.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('master', [], true)
+ 7 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('_partials/_resultados', [], true)
+ 8 APPPATH/Modules/Site/Controllers/PropertyController.php(90): view('_partials/_resultados', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getProperties()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-26 16:12:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/header.php"
+[Method: GET, Route: resultados]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/header.php')
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render('partials/header', null, true)
+ 3 APPPATH/Views/master.php(34): CodeIgniter\View\View->include('partials/header')
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/app/Views/master.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render('master', [], true)
+ 7 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('_partials/_resultados', [], true)
+ 8 APPPATH/Modules/Site/Controllers/PropertyController.php(90): view('_partials/_resultados', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getProperties()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

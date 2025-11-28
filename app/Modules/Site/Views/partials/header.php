@@ -1,10 +1,10 @@
 <!-- HEADER -->
 <header
     class="border-b border-gray-200 relative z-50 bg-white/90 backdrop-blur supports-backdrop-filter:bg-white/70">
-    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3 md:px-8">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-5 py-2 md:px-8">
         <!-- LOGO -->
         <a href="/" class="flex items-center shrink-0" aria-label="Página inicial">
-            <img src="<?php echo base_url('assets/img/sua.png'); ?>" alt="Imovirtual" class="h-10 md:h-14" />
+            <img src="<?php echo base_url('assets/site/img/sua.png'); ?>" alt="Imovirtual" class="h-10 md:h-14" />
         </a>
 
         <!-- NAV DESKTOP -->
@@ -293,25 +293,56 @@
 
         <!-- AÇÕES + MOBILE ÍCONES -->
         <div class="flex items-center gap-3">
-            <!-- Ícone favoritos (desktop + mobile) -->
-            <button class="flex items-center justify-center text-gray-800 hover:text-primary"
-                aria-label="Guardados">
-                <i class="fa-regular fa-heart text-xl"></i>
-            </button>
+            <?php if (!is_logged_in()): ?>
 
-            <!-- Conta pessoal / Adicionar anúncio (apenas desktop) -->
-            <button class="hidden md:flex items-center gap-2 text-[15px] font-semibold hover:text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="2em" fill="none" viewBox="0 0 24 24">
-                    <path fill="currentColor" fill-rule="evenodd"
-                        d="M7.5 6.5C7.5 8.982 9.519 11 12 11s4.5-2.018 4.5-4.5C16.5 4.019 14.481 2 12 2a4.505 4.505 0 0 0-4.5 4.5m2 0C9.5 5.122 10.621 4 12 4s2.5 1.122 2.5 2.5S13.379 9 12 9a2.503 2.503 0 0 1-2.5-2.5M4 22h16l1-1c0-4.962-4.037-9-9-9s-9 4.038-9 9zm14.929-2H5.07c.487-3.387 3.409-6 6.929-6s6.442 2.613 6.929 6"
-                        clip-rule="evenodd"></path>
-                </svg>
-                Conta pessoal
-            </button>
-            <a href="<?= base_url('new-property/category') ?>"
-                class="hidden md:inline-block border border-gray-900 text-gray-900 font-semibold text-sm px-4 py-2 cursor-pointer rounded-md hover:bg-gray-100">
-                Adicionar Anúncio
-            </a>
+                <!-- Visitante -->
+                <a href="<?= base_url('login') ?>" class="flex items-center gap-2 text-white bg-blue-900 hover:bg-blue-950 px-5 py-2 border border-blue-900 rounded-md duration-300">
+                   <i class="bi bi-person text-2xl"></i> Minha conta
+                </a>
+
+                <a href="<?= base_url('register') ?>"
+                    class="border border-blue-900 hover:border-blue-300 duration-300 text-gray-900 px-5 py-2 rounded-md hover:bg-blue-100">
+                    <i class="bi bi-plus text-xl font-thin"> </i>Criar conta
+                </a>
+
+            <?php else: ?>
+
+                <?php if (is_client()): ?>
+                    <!-- CLIENTE -->
+                    <a href="/client/dashboard" class="flex items-center gap-2 text-white bg-blue-900 hover:bg-blue-950 px-5 py-2 border border-blue-900 rounded-md duration-300">
+                        <i class="ph-user"></i> Conta pessoal
+                    </a>
+
+                    <a href="/client/properties/add"
+                        class="border border-gray-900 text-gray-900 px-4 py-2 rounded-md hover:bg-gray-100">
+                        Adicionar Anúncio
+                    </a>
+                <?php endif; ?>
+
+                <?php if (is_agent()): ?>
+                    <!-- AGENTE -->
+                    <a href="/agent" class="flex items-center gap-2 text-white bg-blue-900 hover:bg-blue-950 px-5 py-2 border border-blue-900 rounded-md duration-300">
+                        <i class="ph-briefcase"></i> Painel do Agente
+                    </a>
+
+                    <a href="/agent/properties/add"
+                        class="border border-gray-900 text-gray-900 px-4 py-2 rounded-md hover:bg-gray-100">
+                        Adicionar Imóvel
+                    </a>
+                <?php endif; ?>
+
+                <?php if (is_admin()): ?>
+                    <!-- ADMIN -->
+                    <a href="/admin" class="flex items-center gap-2 text-white bg-blue-900 hover:bg-blue-950 px-5 py-2 border border-blue-900 rounded-md duration-300">
+                        <i class="bi bi-shield"></i> Minha conta
+                    </a>
+                <?php endif; ?>
+
+                <a href="/logout" class="flex items-center gap-2 text-white bg-red-400 hover:bg-red-500 px-5 py-2 border border-red-600 rounded-md duration-300">
+                    Sair
+                </a>
+
+            <?php endif; ?>
 
             <!-- HAMBURGER MOBILE -->
             <button id="menuBtn" class="md:hidden p-2 rounded focus:outline-none focus:ring"

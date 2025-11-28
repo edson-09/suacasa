@@ -6,6 +6,5 @@ use Modules\Site\Controllers\PropertyController;
 $routes->get('/', [HomeController::class, 'index']);
 $routes->get('destacados', [PropertyController::class, 'getDestacados']);
 $routes->get('resultados', [PropertyController::class, 'getProperties']);
-$routes->get('new-property/category', [PropertyController::class, 'getNewProperty']);
 $routes->get('imoveis-destacados', [PropertyController::class, 'getHighlightProperty']);
 $routes->get('imoveis-destacados/(:segment)', [PropertyController::class, 'getPropertyBySlug/$1']);

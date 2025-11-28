@@ -1,13 +1,13 @@
 <?= $this->extend("Site\Views\layouts\master") ?>
 
 <?= $this->section("fragment") ?>
-<link rel="stylesheet" href="<?php echo base_url('assets/css/fragment.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets/site/css/fragment.css'); ?>">
 <?= $this->endSection() ?>
 
 <?= $this->section("home") ?>
 <!-- ======= Hero Section ======= -->
 <section class="relative w-full bg-cover bg-center bg-no-repeat py-16 md:py-24"
-    style="background-image: url('<?php echo base_url('assets/img/imovirtual2HomepageBackground202500813.webp'); ?>')">
+    style="background-image: url('<?php echo base_url('assets/site/img/imovirtual2HomepageBackground202500813.webp'); ?>')">
     <div class="absolute inset-0 bg-black/50"></div>
 
     <div class="relative z-10 max-w-7xl mx-auto text-center px-4 md:px-6">

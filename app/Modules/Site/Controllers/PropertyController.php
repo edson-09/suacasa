@@ -125,6 +125,9 @@ class PropertyController extends BaseController
 
     public function getNewProperty()
     {
+        // CRIAR A LOGICA DE QUANDO NAO TIVER SECCAO ACTIVA REDIRECIONA PARA O LOGIN, CASO CONTARIOS ENTRA NA PLATAFORMA
+        return redirect()->to(base_url('login'));
+
         return view('Site\Views\pages\new-property');
     }
 

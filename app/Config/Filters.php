@@ -2,6 +2,11 @@
 
 namespace Config;
 
+use App\Filters\AdminFilter;
+use App\Filters\AgentFilter;
+use App\Filters\AuthFilters;
+use App\Filters\ClientFilter;
+use App\Filters\OwnerFilter;
 use CodeIgniter\Config\Filters as BaseFilters;
 use CodeIgniter\Filters\Cors;
 use CodeIgniter\Filters\CSRF;
@@ -34,6 +39,11 @@ class Filters extends BaseFilters
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
+        'adminonly'     => AdminFilter::class,
+        'agentonly'     => AgentFilter::class,
+        'owneronly'     => OwnerFilter::class,
+        'clientonly'    => ClientFilter::class,
+        'auth'          => AuthFilters::class,
     ];
 
     /**

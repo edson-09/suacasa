@@ -266,3 +266,160 @@ in APPPATH/Modules/Site/Views/_partials/_property/_images.php on line 5.
 10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 ERROR - 2025-11-27 07:47:48 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+ERROR - 2025-11-27 21:39:27 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:31 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:39 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:44 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:44 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:44 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:45 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:45 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:45 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:46 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-27 21:39:46 --> Erro ao consumir API: 6 : Could not resolve host: api.mechanical.co.mz
+CRITICAL - 2025-11-27 21:39:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: destacados]
+in APPPATH/Modules/Site/Controllers/PropertyController.php on line 15.
+ 1 APPPATH/Modules/Site/Controllers/PropertyController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/var/www/html/app/Modules/Site/Controllers/PropertyController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Site\Controllers\PropertyController->getDestacados()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Site\Controllers\PropertyController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 22:08:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Admin\s.php"
+[Method: GET, Route: admin/painel/inicio]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin\\s.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Admin\\s', [], true)
+ 3 APPPATH/Modules/Admin/Controllers/AdminHomeController.php(11): view('Admin\\s')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Admin\Controllers\AdminHomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\AdminHomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 22:08:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Admin\s.php"
+[Method: GET, Route: painel/inicio]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin\\s.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Admin\\s', [], true)
+ 3 APPPATH/Modules/Admin/Controllers/AdminHomeController.php(11): view('Admin\\s')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Admin\Controllers\AdminHomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\AdminHomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-27 22:10:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Admin\Views\Pages\Admin\home.php"
+[Method: GET, Route: painel/inicio]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin\\Views\\Pages\\Admin\\home.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('Admin\\Views\\Pages\\Admin\\home', [], true)
+ 3 APPPATH/Modules/Admin/Controllers/AdminHomeController.php(11): view('Admin\\Views\\Pages\\Admin\\home')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Admin\Controllers\AdminHomeController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Modules\Admin\Controllers\AdminHomeController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

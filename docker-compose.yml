@@ -10,6 +10,8 @@ services:
       - "8080:80"
     networks:
       - ci4net
+    extra_hosts:
+      - "api-realestate.local:192.168.43.232"   # ou :host-gateway se estiver a funcionar
 
   node:
     build:
@@ -20,7 +22,6 @@ services:
     volumes:
       - .:/app
       - node_modules:/app/node_modules
-    # aqui é a magia: webpack + tailwind + manter container vivo
     command: sh -c "npm run ife & npm run tw & tail -f /dev/null"
     networks:
       - ci4net

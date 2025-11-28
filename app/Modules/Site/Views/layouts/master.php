@@ -19,16 +19,12 @@
 
     <!-- Vendor CSS Files -->
     <link href="<?php echo base_url('assets/site/vendor/bootstrap-icons/bootstrap-icons.css') ?>" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="<?php echo base_url('assets/site/vendor/aos/aos.css') ?>" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <!-- Template Main CSS Files -->
     <link href="<?php echo base_url('assets/site/css/build/build.css') ?>" rel="stylesheet">
     <?php echo $this->renderSection("fragment"); ?>
-    <?php echo $this->renderSection("property_details_css"); ?>
-    <?php echo $this->renderSection("advancedFormCss"); ?>
-    <?php echo $this->renderSection("resultados_css"); ?>
-    <?php echo $this->renderSection("new_property_css"); ?>
 </head>
 
 <body class="font-sans text-textDark bg-[#F2F3F6] antialiased">

@@ -1,21 +1,16 @@
 <?php
 
-use CodeIgniter\Router\RouteCollection;
-
-/**
- * @var RouteCollection $routes
- */
-
 // ========================================================================================================
 // ROTAS DO SITE
 // ========================================================================================================
-$routes->group('', ['namespace' => 'Modules\Site\Controllers'], function ($routes) {
-    require APPPATH . 'Modules/Site/Config/Routes.php';
-});
+require APPPATH . 'Modules/Site/Config/Routes.php';
 
 // ========================================================================================================
-// ROTAS DO PAINEL
+// ROTAS DE AUTENTICAÇÃO
 // ========================================================================================================
-$routes->group('', ['namespace' => 'Modules\Admin\Controllers'], function ($routes) {
-    require APPPATH . 'Modules/Admin/Config/Routes.php';
-});
+require APPPATH . 'Modules/Auth/Config/Routes.php';
+
+// ========================================================================================================
+// ROTAS DE ADMIN
+// ========================================================================================================
+require APPPATH . 'Modules/Admin/Config/Routes.php';

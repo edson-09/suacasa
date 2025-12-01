@@ -1,4 +1,4 @@
-<?= $this->extend('master') ?>
+<?= $this->extend('Site\Views\layouts\master') ?>
 
 <?= $this->section('resultados_css') ?>
 <style>

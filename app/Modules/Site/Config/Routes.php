@@ -8,3 +8,4 @@ $routes->get('destacados', [PropertyController::class, 'getDestacados']);
 $routes->get('resultados', [PropertyController::class, 'getProperties']);
 $routes->get('imoveis-destacados', [PropertyController::class, 'getHighlightProperty']);
 $routes->get('imoveis-destacados/(:segment)', [PropertyController::class, 'getPropertyBySlug/$1']);
+$routes->get('imoveis-destacados/(:segment)/imagens', [PropertyController::class, 'getPropertyBySlug/$1']);

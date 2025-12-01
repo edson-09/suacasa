@@ -39,10 +39,7 @@ class AdminHomeController extends BaseController
     public function getProperties()
     {
         $total = $this->service->search()['total'];
-        $pendentes = $this->service->search(['status' => 'pending']);
-        echo '<pre>';
-        print_r($pendentes);
-        echo '</pre>';exit;
+        $pendentes = $this->service->search(['status' => 'pending'])['total'];
 
         return view('Admin\Views\pages\properties', [
             'total' => $total,

@@ -46,11 +46,12 @@ class PropertyApiService
                 'user_id'          => $request->getGet('user_id'),
                 'price_from'       => $request->getGet('price_from'),
                 'price_to'         => $request->getGet('price_to'),
+                'purpose'         => $request->getGet('purpose'),
                 'property_type_id' => $request->getGet('property_type_id'),
             ];
-
+            
             $queryParams = array_filter($queryParams, fn($value) => $value !== null && $value !== '');
-
+            
             $response = $client->get($this->baseAPIUrl . '/properties', [
                 'headers' => [
                     'Accept'    => 'application/json',

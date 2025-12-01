@@ -77,7 +77,7 @@ class PropertyController extends BaseController
             $slug = iconv('UTF-8', 'ASCII//TRANSLIT', $slug);
             $slug = preg_replace('/[^\w\-]+/', '', $slug);
             $slug = strtolower($slug);
-            $cards .= view('_partials/_cards/_property_card', [
+            $cards .= view('Site\Views\_partials\_cards\_property_card', [
                 'id' => $property['id'],
                 'area' => $property['area'],
                 'slug' => $slug,
@@ -92,7 +92,7 @@ class PropertyController extends BaseController
             ]);
         }
 
-        return view('_partials/_resultados', ['cards' => $cards, 'total' => $result['total'] ?? 0, 'properties' => $properties]);
+        return view('Site\_partials\_resultados', ['cards' => $cards, 'total' => $result['total'] ?? 0, 'properties' => $properties]);
     }
 
     public function getPropertyBySlug($slug)
@@ -100,7 +100,7 @@ class PropertyController extends BaseController
         $api = new PropertyApiService();
         $property = $api->getPropertyBySlug($slug);
 
-        $images = view('Site\_partials\_property\_images', ['images' => $property['gallery']]);
+        $images = view('Site\Views\_partials\_property\_images', ['images' => $property['gallery']]);
 
         $slug = $property['slug'];
         $slug = iconv('UTF-8', 'ASCII//TRANSLIT', $slug);

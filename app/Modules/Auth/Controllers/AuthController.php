@@ -39,10 +39,11 @@ class AuthController extends BaseController
         if (!$email || !$password) {
             return redirect()->back()->withInput()->with('error', 'Preencha todos os campos.');
         }
+
         
         // Tenta autenticar na API externa
         $result = $this->authService->login($email, $password);
-
+        
         if (!$result) {
             return redirect()->back()->withInput()->with('error', 'Credenciais inválidas.');
         }

@@ -54,7 +54,7 @@ class UserApiService
 
             // SALVAR SESSÃO
             session()->set([
-                'auth_token' => (int) $data['token'],
+                'auth_token' => $data['token'],
                 'user'       => $user,
                 'expires'    => (int) time() + ($data['expires_in'] ?? 7200),
             ]);

@@ -46,10 +46,10 @@
                 </div>
 
                 <div class="relative">
-                    <select
+                    <select name="purpose"
                         class="w-full border border-gray-300 rounded-md px-3 py-2 appearance-none pr-8 text-gray-700">
-                        <option>Para comprar</option>
-                        <option>Para arrendar</option>
+                        <option value="venda">Para comprar</option>
+                        <option value="aluguel">Para arrendar</option>
                     </select>
                     <svg class="w-4 h-4 absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 pointer-events-none"
                         viewBox="0 0 24 24">
@@ -57,7 +57,7 @@
                     </svg>
                 </div>
 
-                <input type="text" placeholder="Introduzir localização"
+                <input name="localizacao" type="text" placeholder="Introduzir localização"
                     class="w-full border border-gray-300 rounded-md px-3 py-2 text-gray-700" />
             </div>
 
@@ -71,18 +71,18 @@
 
                 <div class="col-span-2 flex items-center gap-2">
                     <label class="text-sm font-semibold text-gray-600 w-12 shrink-0">Preço</label>
-                    <input type="text" placeholder="de"
+                    <input name="price_from" type="text" placeholder="de"
                         class="w-full border border-gray-300 rounded-md px-3 py-2" />
-                    <input type="text" placeholder="até"
+                    <input name="price_to" type="text" placeholder="até"
                         class="w-full border border-gray-300 rounded-md px-3 py-2" />
                     <span class="text-gray-600 font-medium">€</span>
                 </div>
 
                 <div class="col-span-2 flex items-center gap-2">
                     <label class="text-sm font-semibold text-gray-600 w-12 shrink-0">Área</label>
-                    <input type="text" placeholder="de"
+                    <input name="area_from" type="text" placeholder="de"
                         class="w-full border border-gray-300 rounded-md px-3 py-2" />
-                    <input type="text" placeholder="até"
+                    <input name="area_to" type="text" placeholder="até"
                         class="w-full border border-gray-300 rounded-md px-3 py-2" />
                     <span class="text-gray-600 font-medium">m²</span>
                 </div>

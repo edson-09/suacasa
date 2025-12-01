@@ -57,7 +57,7 @@ class PropertyApiService
     }
 
     /**
-     * Metodo responsavel por retornar os imoveus atraves dos filtros
+     * Metodo responsavel por retornar os imoveis atraves dos filtros
      * @param array $filters
      */
     public function search(array $filters = []): ?array
@@ -75,6 +75,9 @@ class PropertyApiService
                 'query'   => $filters,
                 'http_errors' => false,
             ]);
+            echo '<pre>';
+            print_r($response);
+            echo '</pre>';exit;
             
             return json_decode($response->getBody(), true);
         } catch (\Throwable $e) {

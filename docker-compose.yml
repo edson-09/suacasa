@@ -11,7 +11,7 @@ services:
     networks:
       - ci4net
     extra_hosts:
-      - "api-realestate.local:192.168.43.232"   # ou :host-gateway se estiver a funcionar
+      - "api-realestate.local:host-gateway"   # :host-gateway (para offline tanto online) | :192.168.43.232 (wifi do cell)
 
   node:
     build:
